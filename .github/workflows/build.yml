@@ -1,0 +1,27 @@
+# Builds the site and checks that no existing post URL disappears.
+# Deployment is separate: GitHub Pages publishes the gh-pages branch by itself.
+name: Build check
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [gh-pages]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Build
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check that all existing post URLs still exist
+        run: scripts/check-urls.sh

@@ -1,0 +1,5 @@
+# Chromium + Playwright for scripts/screenshots.sh.
+FROM mcr.microsoft.com/playwright:v1.49.1-noble
+RUN npm install -g playwright@1.49.1
+ENV NODE_PATH=/usr/lib/node_modules
+WORKDIR /site

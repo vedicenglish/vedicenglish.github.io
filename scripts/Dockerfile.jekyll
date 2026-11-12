@@ -1,0 +1,6 @@
+# Jekyll with the GitHub Pages gem set baked in. Built and used by scripts/build.sh.
+FROM ruby:3.3
+WORKDIR /gems
+COPY Gemfile Gemfile.lock ./
+RUN bundle install
+WORKDIR /site
