@@ -1,6 +1,3 @@
----
-title: "Beautiful Words: EXPRESS"
----
 # Beautiful Words: Express
 #### Helps for strong vocabulary and better English.
 

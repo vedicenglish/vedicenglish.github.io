@@ -1,6 +1,3 @@
----
-title: "Musical Words: MENT"
----
 # Musical Words: MENT
 ### Rhyme words of ‘ment’
 

@@ -1,6 +1,3 @@
----
-title: "Musical Words: ABCD"
----
 # Musical Words 'a, b, c, d'
          **(A)**
 

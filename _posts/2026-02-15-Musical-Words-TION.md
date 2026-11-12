@@ -1,6 +1,3 @@
----
-title: "Musical Words: TION"
----
 # Musical Words: TION
 
 ## Beautiful word “tion/ sion”

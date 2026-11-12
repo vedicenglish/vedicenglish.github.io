@@ -1,6 +1,3 @@
----
-title: "Beautiful Words: WITHOUT"
----
 # Beautiful Word: WITHOUT
 ### Singing word ‘without’
 

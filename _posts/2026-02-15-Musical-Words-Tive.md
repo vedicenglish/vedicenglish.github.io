@@ -1,6 +1,3 @@
----
-title: "Musical Words: TIVE"
----
 # Musical Words: TIVE
 
 Sweet and suitable words of ‘tive’ 

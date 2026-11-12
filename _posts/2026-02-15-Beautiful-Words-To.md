@@ -1,6 +1,3 @@
----
-title: "Beautiful Words: TO"
----
 # Beautiful Words: TO
 Pranam Gurudev
  

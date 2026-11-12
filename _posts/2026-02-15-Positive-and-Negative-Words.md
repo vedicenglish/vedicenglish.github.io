@@ -1,6 +1,3 @@
----
-title: "Positive and Negative Words"
----
 # Positive & Negative words
 #### Positive words for same meaning to make your expression powerfull and perfect.Please write and speak like a sweet rhyme. Very veery easy to remember, recall,and remind. It will make your knowledge strong and prosperous.Try t to speak left to write and right to left for strong hold of English words .
 

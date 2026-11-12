@@ -1,6 +1,3 @@
----
-title: "Fingertip Dictionary"
----
 # Finger Tip Dictionary For Speaker, Writers
 #### Shree Guru charan saranam. Pranam.
 

@@ -1,6 +1,3 @@
----
-title: "Style Words"
----
 # Style Words
 Shree Guru charan saranam. Pranam
 
