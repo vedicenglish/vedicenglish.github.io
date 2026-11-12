@@ -4,20 +4,24 @@
 
 layout: home
 ---
-<center><h1 class="display-3" style="font-weight: bold;">New Discovery</h1></center>  
-<center><h2 class="display-6">Musical Word Making | Secret of Students Creative Talent | Practice Daily for Creative Excellence</h2></center>
+# New Discovery
+{: .text-center .fs-9 .fw-700 }
 
-## <center>New Knowledge of Word Making</center>
+## Musical Word Making | Secret of Students Creative Talent | Practice Daily for Creative Excellence
+{: .text-center .fs-6 }
 
-<p float="center">
-  <img src="/assets/files/Mahavatar_Babaji_med1.jpg" width="150" />
-  <img src="/assets/files/baba.png" width="150" />
-</p>
+## New Knowledge of Word Making
+{: .text-center }
 
-<p style="color:SlateBlue;">A great dream comes true. Mahatma Dharmananda.  
+<div class="home-portraits">
+  <img src="/assets/files/Mahavatar_Babaji_med1.jpg" width="175" height="240" alt="Mahavatar Babaji">
+  <img src="/assets/files/baba.jpg" width="300" height="386" alt="Portrait photograph">
+</div>
+
+<p class="dedication--blue">A great dream comes true. Mahatma Dharmananda.  
 In honour of our beloved Gurudev , Christ like soul in human frame , Mahavatar Sri Sri Sri Babaji Maharaj . Pranam . Humbly pray for instant spiritual benefit.</p>
-<p style="color:MediumSeaGreen;">World famous VEDICENGLISH is dedicated in honour of Gaani Devi, a great teacher and a divine soul of inspiration. The daughter of India should be rewarded by our graceful people who dream India first and to serve the mankind first. Pranam pranam. Send your good will message to gaani.usi@gmail.com.</p>
-<p style="color:Tomato;">Dedicated to the great ancestors of Mahatma Dharmananda ( Duryodhana - kanchana, Bahudi - Ranga, Banchanidhi Achyuta, Sadhu Sahoo, Village - Jahangirapatana, Banamalipura, Puri)</p>
+<p class="dedication--green">World famous VEDICENGLISH is dedicated in honour of Gaani Devi, a great teacher and a divine soul of inspiration. The daughter of India should be rewarded by our graceful people who dream India first and to serve the mankind first. Pranam pranam. Send your good will message to <span class="email" data-user="gaani.usi" data-domain="gmail.com">gaani.usi [at] gmail.com</span>.</p>
+<p class="dedication--red">Dedicated to the great ancestors of Mahatma Dharmananda ( Duryodhana - kanchana, Bahudi - Ranga, Banchanidhi Achyuta, Sadhu Sahoo, Village - Jahangirapatana, Banamalipura, Puri)</p>
 
 Knowledge of Word Making is very important, innovative and inspiring for all students of schools and colleges.  
 Vedic English enables automatic flow of words in the mind, to write and speak immediately without thinking for
@@ -35,48 +39,8 @@ __When you read the word beautiful you must read all words i.e beautiful flower,
 
 This site is dedicated to all the school children across the globe, who face difficulties in speaking and writing in English and other mother-tongue.  
 
-<div class="box">
-<!-- Singing Words 'ful' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mv5d503Xi6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'cal' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYp3lKD9d-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'ment' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5qH40KN8MFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'tion' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ga1f-gOhqwg?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'cate' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oHrHwPD2cSY?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'tive' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AXi_k-Q6pVg?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'ous' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WcMGubFlQxE?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'able' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eNK64MwvqGQ?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'LY part 1' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TojBS4ziFq0?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'LY part 2' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cGra0pKxMjM?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'LY part 3' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LbTc8K1Isbc?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Singing Words 'And words vital key' -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XypTax-gcys?enablejsapi=1&origin=https://vedicenglish.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!--- Subarna Chilika -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vhvzQi_bMKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!--- Konark -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7FfbXavilk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-grid">
+{% for video in site.data.videos %}{% include video.html video=video %}{% endfor %}
 </div>
 
 ## <mark>Must Read and Remember (Students' Paradise of Words)</mark>
@@ -90,5 +54,5 @@ This site is dedicated to all the school children across the globe, who face dif
 </ul>
 
 ## [Kalinga Karubaki: Princess of Love and War (Click here)](/assets/files/Kalinga_Karubaki.pdf) (Odia)
-![Kalingaa Karubaki!](/assets/files/kalingaa_karubaki.png)
+<img src="/assets/files/kalingaa_karubaki.jpg" width="1000" height="750" loading="lazy" alt="Cover of the book Kalinga Karubaki: Princess of Love and War">
 ## [Kalinga Karubaki: Princess of Love and War (Click here)](/assets/files/Kalinga_Karubaki_translated.pdf) (Translated)

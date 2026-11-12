@@ -1,3 +1,6 @@
+---
+title: "Beautiful Words: OF"
+---
 # Beautiful Words: OF
 Shree Guru charan saranam.Pranam
 

@@ -61,12 +61,6 @@
 /posts/Spoken-English-5.html
 /posts/Spoken-English-6.html
 /posts/Style-Words.html
-/posts/verb-ed-part-1.html
-/posts/verb-ed-part-2.html
-/posts/verb-ing-part-1.html
-/posts/verb-ing-part-2.html
-/posts/verb-to-part-1.html
-/posts/verb-to-part-2.html
 /posts/WHAT.html
 /posts/WHEN.html
 /posts/WHO.html

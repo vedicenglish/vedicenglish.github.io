@@ -1,3 +1,6 @@
+---
+title: "Musical Words: CATE"
+---
 # Musical Words: CATE
 
 ## Rhyme words easy to remember and remind.

@@ -1,6 +1,8 @@
 title: VedicEnglish.com
-description: >- # this means to ignore newlines until "baseurl:"
- This site is for learning amazing stuff.
+description: >-
+  Free English word-power lessons for school children: musical word making,
+  collocations, spoken English, and Odia poetry.
+lang: en
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://vedicenglish.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -9,6 +11,7 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 disable_disk_cache: true
 
@@ -19,6 +22,24 @@ just_the_docs:
     posts:
 
 permalink: /posts/:title.html
+
+defaults:
+  # Image shown when a page is shared (WhatsApp, Facebook, ...).
+  - scope: { path: "" }
+    values: { image: /assets/images/social-card.png }
+  # Odia-language lessons, matched by file name.
+  - scope: { path: "_posts/*Shabda-Ganga*" }
+    values: { lang: or }
+  - scope: { path: "_posts/*Pratisabda-Geeti-Ganga*" }
+    values: { lang: or }
+  - scope: { path: "_posts/*Sabda-Sambhara*" }
+    values: { lang: or }
+  - scope: { path: "_posts/*Smruti-*abita*" }
+    values: { lang: or }
+  - scope: { path: "_posts/*odia-kabita*" }
+    values: { lang: or }
+  - scope: { path: "_posts/*Jagannath-Janana*" }
+    values: { lang: or }
 
 kramdown:
   syntax_highlighter_opts:

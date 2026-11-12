@@ -1,0 +1,10 @@
+{%- comment -%}
+  Click-to-load YouTube video. Shows only a thumbnail until clicked, so the page stays light;
+  assets/js/site.js swaps in the player. Without JavaScript the link opens YouTube.
+  Usage: {% include video.html video=video %} where video has `id` and `title`.
+{%- endcomment -%}
+<a class="video-tile" href="https://www.youtube.com/watch?v={{ include.video.id }}" data-video-id="{{ include.video.id }}" data-video-title="{{ include.video.title | escape }}">
+  <img src="https://i.ytimg.com/vi/{{ include.video.id }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy">
+  <span class="video-tile__play" aria-hidden="true"></span>
+  <span class="video-tile__title">{{ include.video.title }}</span>
+</a>

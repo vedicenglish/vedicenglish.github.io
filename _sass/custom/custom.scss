@@ -1,0 +1,106 @@
+// Site-specific styles on top of the just-the-docs theme.
+
+// Odia text. The unicode-range means the font file is downloaded only on pages that
+// actually contain Odia characters.
+@font-face {
+  font-family: "Noto Sans Oriya";
+  src: url("/assets/fonts/noto-sans-oriya.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans Oriya", sans-serif;
+}
+
+:lang(or) .main-content {
+  font-size: 1.1em;
+  line-height: 1.9;
+}
+
+// Home page
+.home-portraits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+// Dedications. Colours keep the original hues but meet WCAG AA contrast (4.5:1) on white.
+.dedication--blue { color: #6a5acd; }  // 5.3:1
+.dedication--green { color: #1f7a4a; } // 5.3:1
+.dedication--red { color: #b5341c; }   // 6.1:1
+
+// Click-to-load videos
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.video-tile,
+.video-frame {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-tile {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    background: rgba(200, 0, 0, 0.9);
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-40%, -50%);
+      border-style: solid;
+      border-width: 10px 0 10px 18px;
+      border-color: transparent transparent transparent #fff;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5rem 0.75rem 0.5rem;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  }
+
+  &:hover &__play,
+  &:focus-visible &__play {
+    background: #f00;
+  }
+}
