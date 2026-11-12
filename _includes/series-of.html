@@ -1,0 +1,36 @@
+{%- comment -%}
+  Finds the series a lesson belongs to, from its file name. The single place this rule lives.
+  Usage: {% include series-of.html post=post %}
+  Note:  includes share variables with the page that calls them, so every name assigned here
+         is prefixed or specific enough not to collide.
+  Sets:  series       the matching entry of _data/series.yml, or nil
+         lesson_slug  the lesson's file name without date and extension
+         lesson_key   a sortable key: position of the matched prefix, then the lesson's number
+                      (zero-padded, so 5 sorts before 31) or the rest of its name
+{%- endcomment -%}
+{%- assign lesson_slug = include.post.url | split: "/" | last | remove: ".html" -%}
+{%- assign series = nil -%}
+{%- assign lesson_key = "" -%}
+{%- for candidate in site.data.series -%}
+  {%- if series -%}{%- break -%}{%- endif -%}
+  {%- for prefix in candidate.match -%}
+    {%- assign head = lesson_slug | slice: 0, prefix.size -%}
+    {%- if head == prefix -%}
+      {%- assign series = candidate -%}
+      {%- assign rest = lesson_slug | remove_first: prefix -%}
+      {%- assign lesson_number = rest | split: "-" | first | plus: 0 -%}
+      {%- if lesson_number > 0 -%}
+        {%- assign rest = lesson_number | prepend: "0000" | slice: -4, 4 -%}
+      {%- endif -%}
+      {%- assign lesson_key = forloop.index | prepend: "0" | slice: -2, 2 | append: "-" | append: rest -%}
+      {%- if candidate.order -%}
+        {%- for name in candidate.order -%}
+          {%- if name == lesson_slug -%}
+            {%- assign lesson_key = forloop.index | prepend: "0000" | slice: -4, 4 | prepend: "00-" -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

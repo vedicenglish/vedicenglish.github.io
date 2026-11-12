@@ -1,0 +1,28 @@
+{%- comment -%} Shown at the foot of every page. On lessons: where this lesson sits in its series. {%- endcomment -%}
+{%- if page.collection == "posts" -%}
+  {%- include series-of.html post=page -%}
+  {%- assign current = series -%}
+  {%- if current -%}
+    {%- include series-lessons.html key=current.key -%}
+    {%- for row in lessons -%}
+      {%- assign cell = row | split: "|" -%}
+      {%- if cell[1] == page.url -%}
+        {%- assign position = forloop.index -%}
+        {%- assign before = forloop.index0 | minus: 1 -%}
+        {%- assign after = forloop.index -%}
+      {%- endif -%}
+    {%- endfor %}
+<nav class="lesson-nav" aria-label="Lessons in this series">
+  <p class="lesson-nav__where">Lesson {{ position }} of {{ lessons.size }} in <a href="/#{{ current.key }}">{{ current.title }}</a></p>
+  <div class="lesson-nav__links">
+    {%- if before >= 0 -%}{%- assign cell = lessons[before] | split: "|" %}
+    <a class="lesson-nav__prev" href="{{ cell[1] }}">← {{ cell[2] }}</a>
+    {%- endif -%}
+    {%- if after < lessons.size -%}{%- assign cell = lessons[after] | split: "|" %}
+    <a class="lesson-nav__next" href="{{ cell[1] }}">{{ cell[2] }} →</a>
+    {%- endif %}
+  </div>
+</nav>
+  {%- endif %}
+<p><a href="/">← All lessons</a></p>
+{%- endif -%}

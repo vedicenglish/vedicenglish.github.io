@@ -1,15 +1,20 @@
-# Videos shown on the home page, in this order. `id` is the YouTube video ID.
-- { id: mv5d503Xi6Y, title: "Singing Words: FUL" }
-- { id: AYp3lKD9d-E, title: "Singing Words: CAL" }
-- { id: 5qH40KN8MFY, title: "Singing Words: MENT" }
-- { id: Ga1f-gOhqwg, title: "Singing Words: TION" }
-- { id: oHrHwPD2cSY, title: "Singing Words: CATE" }
-- { id: AXi_k-Q6pVg, title: "Singing Words: TIVE" }
-- { id: WcMGubFlQxE, title: "Singing Words: OUS" }
-- { id: eNK64MwvqGQ, title: "Singing Words: ABLE" }
-- { id: TojBS4ziFq0, title: "Singing Words: LY, part 1" }
-- { id: cGra0pKxMjM, title: "Singing Words: LY, part 2" }
-- { id: LbTc8K1Isbc, title: "Singing Words: LY, part 3" }
-- { id: XypTax-gcys, title: "AND Words: the vital key" }
-- { id: vhvzQi_bMKw, title: "Subarna Chilika" }
-- { id: F7FfbXavilk, title: "Konark" }
+# Videos for the home page. `id` is the YouTube video ID. The "Listen and sing" section
+# appears on the home page only when this list has at least one entry.
+#
+# All of the videos below were reported "not found" by YouTube in November 2026, so they are
+# switched off. To bring one back, replace its id with the new one and remove the leading "#".
+#
+# - { id: mv5d503Xi6Y, title: "Singing Words: FUL" }
+# - { id: AYp3lKD9d-E, title: "Singing Words: CAL" }
+# - { id: 5qH40KN8MFY, title: "Singing Words: MENT" }
+# - { id: Ga1f-gOhqwg, title: "Singing Words: TION" }
+# - { id: oHrHwPD2cSY, title: "Singing Words: CATE" }
+# - { id: AXi_k-Q6pVg, title: "Singing Words: TIVE" }
+# - { id: WcMGubFlQxE, title: "Singing Words: OUS" }
+# - { id: eNK64MwvqGQ, title: "Singing Words: ABLE" }
+# - { id: TojBS4ziFq0, title: "Singing Words: LY, part 1" }
+# - { id: cGra0pKxMjM, title: "Singing Words: LY, part 2" }
+# - { id: LbTc8K1Isbc, title: "Singing Words: LY, part 3" }
+# - { id: XypTax-gcys, title: "AND Words: the vital key" }
+# - { id: vhvzQi_bMKw, title: "Subarna Chilika" }
+# - { id: F7FfbXavilk, title: "Konark" }

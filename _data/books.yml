@@ -1,0 +1,14 @@
+# Books by the author, shown on the home page. `links` is optional.
+- title: Megharatna
+  cover: megharatna.jpg
+- title: Sudhajhara Sanaghagara
+  cover: sudhajhara-sanaghagara.jpg
+- title: Subarna Chilika
+  cover: subarna-chilika.jpg
+- title: "Kalinga Karubaki: Princess of Love and War"
+  cover: kalinga-karubaki.jpg
+  links:
+    - { label: "Read in Odia (PDF)", url: /assets/files/Kalinga_Karubaki.pdf }
+    - { label: "Read the translation (PDF)", url: /assets/files/Kalinga_Karubaki_translated.pdf }
+- title: New Knowledge
+  cover: new-knowledge.jpg

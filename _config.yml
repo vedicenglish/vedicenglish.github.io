@@ -20,6 +20,8 @@ files: assets/files
 just_the_docs:
   collections:
     posts:
+      # Lessons are reached from the home page, not from a 70-item sidebar. They stay searchable.
+      nav_exclude: true
 
 permalink: /posts/:title.html
 

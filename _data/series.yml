@@ -1,0 +1,95 @@
+# Groups of lessons shown on the home page.
+#
+# A lesson joins the first series whose `match` list contains the start of its file name
+# (after the date). Example: _posts/2026-03-01-Musical-Words-Ness.md starts with
+# "Musical-Words-", so it appears under "Musical Words" automatically.
+# Lessons that match nothing appear under "More lessons".
+#
+#   section: english | odia
+#   level:   1 = start here, 2 = next steps, 3 = for writers and speakers (english only)
+#   order:   optional list of file names (without date and .md) to fix the order by hand
+
+- key: musical-words
+  title: Musical Words
+  match: ["Musical-Words-", "musical-words-"]
+  section: english
+  level: 1
+  blurb: Word endings such as -ful, -less, -able and -tion, each sung with the words that go with it.
+  order: ["musical-words-full", "musical-words-less", "musical-words-ous", "musical-words-very"]
+
+- key: singing-words
+  title: Singing Words
+  match: ["Singing-Words-", "singing-words-"]
+  section: english
+  level: 1
+  blurb: Small words such as for, after and by, with the phrases they make.
+
+- key: rhyme-words
+  title: Rhyme Words
+  match: ["rhyme-words-"]
+  section: english
+  level: 1
+  blurb: Words that rhyme, to read aloud together.
+
+- key: and-words
+  title: AND Words
+  match: ["and-words-"]
+  section: english
+  level: 1
+  blurb: Pairs of words joined by "and" — the vital key to speaking without stopping.
+
+- key: question-words
+  title: Question Words
+  match: ["WHO", "WHAT", "WHEN"]
+  section: english
+  level: 1
+  blurb: Everyday questions that begin with who, what and when.
+
+- key: beautiful-words
+  title: Beautiful Words
+  match: ["Beautiful-Words-", "Beautiful-Sentences-"]
+  section: english
+  level: 2
+  blurb: Phrases built around in, of, to, with and without, and words for nature and expression.
+
+- key: word-banks
+  title: Word Banks
+  match: ["adjective-part-", "adverb-part-", "noun-part-", "verb-"]
+  section: english
+  level: 2
+  blurb: Adjectives, adverbs and nouns from A to Z, each with the words that go with it.
+
+- key: spoken-english
+  title: Spoken English
+  match: ["Spoken-English-", "Words-I-HAD"]
+  section: english
+  level: 2
+  blurb: Ready-made sentences for speaking, beginning with "I".
+
+- key: writers-toolkit
+  title: Writer's Toolkit
+  match: ["Fingertip-Dictionary", "Style-Words", "Positive-and-Negative-Words"]
+  section: english
+  level: 3
+  blurb: Strong verbs and style words for older students, speakers and writers.
+
+- key: shabda-ganga
+  title: Shabda Ganga
+  match: ["Shabda-Ganga-"]
+  section: odia
+
+- key: pratisabda-geeti-ganga
+  title: Pratisabda Geeti Ganga
+  match: ["Pratisabda-Geeti-Ganga-"]
+  section: odia
+
+- key: sabda-sambhara
+  title: Sabda Sambhara
+  match: ["Sabda-Sambhara-"]
+  section: odia
+
+- key: kabita
+  title: Kabita (poems)
+  match: ["Smruti-", "odia-kabita-", "Jagannath-Janana"]
+  section: odia
+  order: ["Smruti-Kabita", "Smruti-kabita-2", "odia-kabita-3", "Jagannath-Janana"]

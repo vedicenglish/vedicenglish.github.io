@@ -1,0 +1,14 @@
+{%- comment -%} One series as a card. Usage: {% include series-card.html series=entry %} {%- endcomment -%}
+{%- assign card = include.series -%}
+{%- include series-lessons.html key=card.key -%}
+{%- if lessons.size > 0 %}
+<section class="series-card" id="{{ card.key }}">
+  <h3 class="series-card__title">{{ card.title }}</h3>
+  {% if card.blurb %}<p class="series-card__blurb">{{ card.blurb }}</p>{% endif %}
+  <ol class="series-card__lessons">
+    {%- for row in lessons -%}{%- assign cell = row | split: "|" %}
+    <li><a href="{{ cell[1] }}">{{ cell[2] }}</a></li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endif -%}

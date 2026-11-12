@@ -1,0 +1,17 @@
+{%- comment -%}
+  Collects the lessons of one series in reading order.
+  Usage: {% include series-lessons.html key="musical-words" %}   (key="" collects unmatched lessons)
+  Sets:  lessons   array of "sort-key|url|title" strings, sorted; split each on "|"
+{%- endcomment -%}
+{%- assign wanted = include.key -%}
+{%- assign rows = "" -%}
+{%- for post in site.posts -%}
+  {%- include series-of.html post=post -%}
+  {%- assign found = series.key | default: "" -%}
+  {%- if found == wanted -%}
+    {%- assign key = lesson_key -%}
+    {%- if found == "" -%}{%- assign key = lesson_slug -%}{%- endif -%}
+    {%- assign rows = rows | append: key | append: "|" | append: post.url | append: "|" | append: post.title | append: "\n" -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign lessons = rows | split: "\n" | sort -%}
